@@ -1,15 +1,7 @@
 const express = require('express');
 const routes = express.Router();
+const ProductController = require('./controllers/ProductController');
 
-
-routes.get("/", (req, res) => {
-    /* Product.create({
-        title: "Samuel França",
-        description: "Estudando NodeJs",
-        url: "https://github.com/samuelffn"
-    });
- */    
-    return res.send("Hello Samuel!");
- });
+routes.get("/products", ProductController.index);
 
  module.exports = routes;
