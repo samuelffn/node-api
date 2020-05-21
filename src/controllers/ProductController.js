@@ -5,7 +5,8 @@ module.exports = {
     
     // Listar todos
     async index(req, res) {
-        const products = await Product.find();
+        const { page = 1 } = req.query; // O =1 é um valor default para quando a rota não encontrar o parâmetro recebido
+        const products = await Product.paginate({}, { page, limit: 10 });
         return res.json(products);
     },
 
@@ -36,37 +37,39 @@ module.exports = {
 
 
 // EXEMPLOS PARA CHAMADA DOS ENDPOINTS NO POSTMAN
-
 /*
-Listar todos:
-No Postman escolhe GET
-URL: http://localhost:3001/api/products
+    Listar todos:
+    No Postman escolhe GET
+    URL: http://localhost:3001/api/products
 
-Detalhar:
-No Postman escolhe GET e após o nome da roda informa o ID na URL
-URL: http://localhost:3001/api/products/5ec6bff5bed6e006a851f2e4
+    Listar todos usando o page:
+    No Postman escolhe GET e após o nome da roda informa o valor da página na URL
+    URL: http://localhost:3001/api/products?page=2
 
-Salvar:
-No Postman escolhe POST, em seguida marca Body, raw e JSON(application/json)
-No área do boy add o json:
-{
-    "title": "Samuel França",
-    "description": "Estudando NodeJs",
-    "url": "https://github.com/samuelffn"
-}
-URL: http://localhost:3001/api/products
+    Detalhar:
+    No Postman escolhe GET e após o nome da roda informa o ID na URL
+    URL: http://localhost:3001/api/products/5ec6bff5bed6e006a851f2e4
 
-Atualizar:
-No Postman escolhe PUT, em seguida marca Body, raw e JSON(application/json)
-No área do boy add o json:
-{
-    "title": "Samuel Neto"
-}
-Após o nome da roda informa o ID na URL
-URL: http://localhost:3001/api/products/5ec6bff5bed6e006a851f2e4
+    Salvar:
+    No Postman escolhe POST, em seguida marca Body, raw e JSON(application/json)
+    No área do boy add o json:
+    {
+        "title": "Samuel França",
+        "description": "Estudando NodeJs",
+        "url": "https://github.com/samuelffn"
+    }
+    URL: http://localhost:3001/api/products
 
-Excluir:
-No Postman escolhe DELETE, em seguida NÃO marca Body e após o nome da roda informa o ID na URL
-URL: http://localhost:3001/api/products/5ec6bff5bed6e006a851f2e4
+    Atualizar:
+    No Postman escolhe PUT, em seguida marca Body, raw e JSON(application/json)
+    No área do boy add o json:
+    {
+        "title": "Samuel Neto"
+    }
+    Após o nome da roda informa o ID na URL
+    URL: http://localhost:3001/api/products/5ec6bff5bed6e006a851f2e4
 
+    Excluir:
+    No Postman escolhe DELETE, em seguida NÃO marca Body e após o nome da roda informa o ID na URL
+    URL: http://localhost:3001/api/products/5ec6bff5bed6e006a851f2e4
 */

@@ -15,7 +15,16 @@ ip_da_aplicacao:porta
 Ex.:  
 localhost:3001  
 
-# nodemon
+# dependências utilizadas no projeto  
+npm install express  
+npm install -D nodemon 
+npm install mongoose  
+npm install require-dir  
+npm install mongoose-paginate
+npm install cors
+
+# nodemon  
+npm install -D nodemon  
 Dependência para ser utilizada apenas no ambiente de desenvolvimento.  
 Ela faz com que ao salvar alguma alteração o servidor faça a atualização semprecisar parar e executar novamente.  
 Utilização:  
@@ -24,18 +33,22 @@ Utilização:
 3) No terminal executa a aplicação usando o comando: npm run dev  
 Obs.: O npm run serve para executar os comandos que estão em script  
 
-# mogoose
+# mogoose  
+npm install mongoose  
 O mongoose é um ORM (Object Relacional Mapping) de bancos não relacionais.
 O ORM vai emcapsular a lógica das operações do banco de dados através do código. Sendo assim não será utilizada a linguagem do banco de dados e utilizará o JavaScript para realizar operações no banco.
 
-# require-dir
+# require-dir  
+npm install require-dir  
 Todos os models criados devem ser registrados na aplicação atravéz do require. Para evitar fazer um require em todos os models da aplicação o requide-dir faz o registro de todos os models existentes.
 
-# dependências  
-npm install express  
-npm install -D nodemon 
-npm install mongoose  
-npm install require-dir
+# mongoose-paginate  
+npm install mongoose-paginate  
+Dependência que permite usar paginação no mogoose.  
+
+# cors  
+npm install cors  
+Permite que outros endereços acessem nossa API. Isso serve pra quando nossa aplicação estão hostadada em algum servidor usando algum domínio. Basicamente ele previne o acesso de domínios que não sáo o mesmo domínio de outros softwares da nossa API.
 
 # baixando e criando a imagem do mongodb utilizando o Docker
 1) Para instalação do docker: https://www.docker.com/  
