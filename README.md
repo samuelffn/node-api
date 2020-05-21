@@ -24,9 +24,14 @@ Utilização:
 3) No terminal executa a aplicação usando o comando: npm run dev  
 Obs.: O npm run serve para executar os comandos que estão em script  
 
+# mogoose
+O mongoose é um ORM (Object Relacional Mapping) de bancos não relacionais.
+O ORM vai emcapsular a lógica das operações do banco de dados através do código. Sendo assim não será utilizada a linguargem do banco de dados e utilizará o JavaScript para realizar operções no banco.
+
 # dependências  
 npm install express  
 npm install -D nodemon 
+npm install mongoose
 
 # baixando e criando a imagem do mongodb utilizando o Docker
 1) Para instalação do docker: https://www.docker.com/  
