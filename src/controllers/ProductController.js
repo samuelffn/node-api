@@ -35,7 +35,7 @@ module.exports = {
 };
 
 
-// EXEMPLOS PARA CHAMADA DOS MÉTODOS no POSTMAN
+// EXEMPLOS PARA CHAMADA DOS ENDPOINTS NO POSTMAN
 
 /*
 Listar todos:
