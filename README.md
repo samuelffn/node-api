@@ -26,7 +26,7 @@ Obs.: O npm run serve para executar os comandos que estão em script
 
 # mogoose
 O mongoose é um ORM (Object Relacional Mapping) de bancos não relacionais.
-O ORM vai emcapsular a lógica das operações do banco de dados através do código. Sendo assim não será utilizada a linguargem do banco de dados e utilizará o JavaScript para realizar operções no banco.
+O ORM vai emcapsular a lógica das operações do banco de dados através do código. Sendo assim não será utilizada a linguagem do banco de dados e utilizará o JavaScript para realizar operações no banco.
 
 # require-dir
 Todos os models criados devem ser registrados na aplicação atravéz do require. Para evitar fazer um require em todos os models da aplicação o requide-dir faz o registro de todos os models existentes.
