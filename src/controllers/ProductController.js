@@ -9,7 +9,7 @@ module.exports = {
         return res.json(products);
     },
 
-    // Detalhe
+    // Detalhar
     async show(req, res) {
         const product = await Product.findById(req.params.id);
         return res.json(product);
@@ -33,3 +33,40 @@ module.exports = {
         return res.send();
     }
 };
+
+
+// EXEMPLOS PARA CHAMADA DOS MÉTODOS no POSTMAN
+
+/*
+Listar todos:
+No Postman escolhe GET
+URL: http://localhost:3001/api/products
+
+Detalhar:
+No Postman escolhe GET e após o nome da roda informa o ID na URL
+URL: http://localhost:3001/api/products/5ec6bff5bed6e006a851f2e4
+
+Salvar:
+No Postman escolhe POST, em seguida marca Body, raw e JSON(application/json)
+No área do boy add o json:
+{
+    "title": "Samuel França",
+    "description": "Estudando NodeJs",
+    "url": "https://github.com/samuelffn"
+}
+URL: http://localhost:3001/api/products
+
+Atualizar:
+No Postman escolhe PUT, em seguida marca Body, raw e JSON(application/json)
+No área do boy add o json:
+{
+    "title": "Samuel Neto"
+}
+Após o nome da roda informa o ID na URL
+URL: http://localhost:3001/api/products/5ec6bff5bed6e006a851f2e4
+
+Excluir:
+No Postman escolhe DELETE, em seguida NÃO marca Body e após o nome da roda informa o ID na URL
+URL: http://localhost:3001/api/products/5ec6bff5bed6e006a851f2e4
+
+*/
