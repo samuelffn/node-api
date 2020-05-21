@@ -30,8 +30,8 @@ O ORM vai emcapsular a lógica das operações do banco de dados através do có
 
 # dependências  
 npm install express  
-npm install -D nodemon 
-npm install mongoose
+npm install -D nodemon  
+npm install mongoose  
 
 # baixando e criando a imagem do mongodb utilizando o Docker
 1) Para instalação do docker: https://www.docker.com/  
