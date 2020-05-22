@@ -1,5 +1,5 @@
 # node-api
-Projeto básico para estudo do NodeJs  
+Projeto básico de uma API para estudo com NodeJs e MongoDB  
   
 # comandos para criação do projeto  
 1- mkdir node-api (nome do diretório do projeto)  
