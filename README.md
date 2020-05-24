@@ -9,6 +9,7 @@ Projeto básico de uma API para estudo com NodeJs e MongoDB
   
 # comando para executar o projeto  
 node server.js  
+Usando o nodemon: npm run dev
 
 # acessar o projeto pelo navegador  
 ip_da_aplicacao:porta  
