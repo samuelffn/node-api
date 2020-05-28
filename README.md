@@ -88,7 +88,7 @@ Cadastrando um banco:
 2) Clica em Test pra testar a conexão
 3) Clica em Save
 4) De volta à janela do MongoDB Connections, escolhe a conesão criada e depois clica em Connect 
-5) Observe que ainda não temos tabelas criadas, pois nossa API Node irá criá-las
+5) Observe que ainda não temos tabelas criadas, pois nossa API Node irá criá-las  
 
 
 
