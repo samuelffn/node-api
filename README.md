@@ -29,7 +29,7 @@ Dependência para ser utilizada apenas no ambiente de desenvolvimento.
 Ela faz com que ao salvar alguma alteração o servidor faça a atualização semprecisar parar e executar novamente.  
 Utilização:  
 1) Acessa o package.json  
-2) Em scripts, cria uma nova propriedade: **"dev": "nodemon serve.sj"**  
+2) Em scripts, cria uma nova propriedade: **"dev": "nodemon server.js"**  
 3) No terminal executa a aplicação usando o comando: **npm run dev**  
 Obs.: O npm run serve para executar os comandos que estão em script  
 
