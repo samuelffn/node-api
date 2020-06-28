@@ -24,17 +24,17 @@ npm install mongoose-paginate
 npm install cors
 
 ## nodemon  
-npm install -D nodemon  
+**npm install -D nodemon**  
 Dependência para ser utilizada apenas no ambiente de desenvolvimento.  
 Ela faz com que ao salvar alguma alteração o servidor faça a atualização semprecisar parar e executar novamente.  
 Utilização:  
 1) Acessa o package.json  
-2) Em scripts, cria uma nova propriedade: "dev": "nodemon serve.sj"  
-3) No terminal executa a aplicação usando o comando: npm run dev  
+2) Em scripts, cria uma nova propriedade: **"dev": "nodemon serve.sj"**  
+3) No terminal executa a aplicação usando o comando: **npm run dev**  
 Obs.: O npm run serve para executar os comandos que estão em script  
 
 ## mogoose  
-npm install mongoose  
+**npm install mongoose**  
 O mongoose é um ORM (Object Relacional Mapping) de bancos não relacionais.
 O ORM vai emcapsular a lógica das operações do banco de dados através do código. Sendo assim não será utilizada a linguagem do banco de dados e utilizará o JavaScript para realizar operações no banco.
 
