@@ -39,15 +39,15 @@ O mongoose é um ORM (Object Relacional Mapping) de bancos não relacionais.
 O ORM vai emcapsular a lógica das operações do banco de dados através do código. Sendo assim não será utilizada a linguagem do banco de dados e utilizará o JavaScript para realizar operações no banco.
 
 ## require-dir  
-npm install require-dir  
+**npm install require-dir**  
 Todos os models criados devem ser registrados na aplicação atravéz do require. Para evitar fazer um require em todos os models da aplicação o requide-dir faz o registro de todos os models existentes.
 
 ## mongoose-paginate  
-npm install mongoose-paginate  
+**npm install mongoose-paginate**  
 Dependência que permite usar paginação no mogoose.  
 
 ## cors  
-npm install cors  
+**npm install cors**  
 Permite que outros endereços acessem nossa API. Isso serve pra quando nossa aplicação estão hostadada em algum servidor usando algum domínio. Basicamente ele previne o acesso de domínios que não sáo o mesmo domínio de outros softwares da nossa API.
 
 ## baixando e criando a imagem do mongodb utilizando o Docker
