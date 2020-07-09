@@ -32,6 +32,7 @@ Utilização:
 2) Em scripts, cria uma nova propriedade: **"dev": "nodemon server.js"**  
 3) No terminal executa a aplicação usando o comando: **npm run dev**  
 Obs.: O npm run serve para executar os comandos que estão em script  
+4) Ao executar a aplicação pela primeira vez ela vai criar o banco de dados 
 
 ## mogoose  
 **npm install mongoose**  
