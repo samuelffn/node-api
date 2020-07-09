@@ -67,7 +67,7 @@ Permite que outros endereços acessem nossa API. Isso serve pra quando nossa apl
     -d: mongo: Preciso informar qual imagem vou utilizar para criar esse container. Utilizamos a imagem que baixamos no 
     passo 3, mongo.  
 5) Listar as imagens que estão ativas no momento: **docker ps**  
-    Comando utilizado para listar as imagens do docker e todos os detakhes da mesma.  
+    Comando utilizado para listar as imagens do docker e todos os detalhes da mesma.  
 6) Para testar o funcionamento do mongodb:  
     6.1- Abre o navegador e digita: **localhost:27017**  
     6.2- Se tudo estiver bem, retornará algo do tipo: **Its looks like you are trying to access MongoDB over HTTP on the native driver port**  
