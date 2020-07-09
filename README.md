@@ -73,7 +73,7 @@ Permite que outros endereços acessem nossa API. Isso serve pra quando nossa apl
     6.2- Se tudo estiver bem, retornará algo do tipo: **Its looks like you are trying to access MongoDB over HTTP on the native driver port**  
 7) Quando precisar reiniciar a máquina será necessário levantar o Docker novamente:  
     7.1- Listar todas as imagens: **docker ps -a**  
-    7.2- **docker start noma_da_imagem**    
+    7.2- **docker start nome_da_imagem**    
   
 ## Robo 3T  
 É um visualizador para dados do MongDB  
