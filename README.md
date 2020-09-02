@@ -8,7 +8,7 @@ Projeto básico de uma API para estudo com NodeJs e com o banco de dados MongoDB
 4) ls  
   
 ## Comando para executar o projeto  
-node server.js  
+Executando só com o node: **node server.js**  
 Usando o nodemon: **npm run dev**
 
 ## Acessar o projeto pelo navegador  
@@ -32,7 +32,7 @@ Utilização:
 2) Em scripts, cria uma nova propriedade: **"dev": "nodemon server.js"**  
 3) No terminal executa a aplicação usando o comando: **npm run dev**  
 Obs.: O npm run serve para executar os comandos que estão em script  
-4) Ao executar a aplicação pela primeira vez ela vai criar o banco de dados 
+4) Ao executar a aplicação pela primeira vez ela vai criar o banco de dados. 
 
 ## mogoose  
 **npm install mongoose**  
@@ -61,7 +61,7 @@ Permite que outros endereços acessem nossa API. Isso serve pra quando nossa apl
     docker pull: comando utilizado para baixar a imagem do mongodb. Se der erro de permissão use: **sudo**  
 4) **docker run --name mongodb -p 27017:27017 -d mongo**  
     Se der erro de permissão use: **sudo**  
-    --name: Será o nome do container dentro do meu sistema  
+    --name: Será o nome do container dentro do sistema  
     -p:  Será a porta para redirecionamento  
     27017:27017: É um exemplo de redirecionamento das portas. Toda vez que acessar a porta 27017 da ninha máquina, ele 
     redirecionará para a porta 27017 do mongodb que está instalado dentro desse container.  
