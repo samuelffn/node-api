@@ -1,4 +1,4 @@
-# node-api
+# node-api  
 Projeto básico de uma API para estudo com NodeJs e com o banco de dados MongoDB.  
   
 ## Comandos para criação do projeto  
@@ -9,12 +9,12 @@ Projeto básico de uma API para estudo com NodeJs e com o banco de dados MongoDB
   
 ## Comando para executar o projeto  
 Executando só com o node: **node server.js**  
-Usando o nodemon: **npm run dev**
-
+Usando o nodemon: **npm run dev**  
+  
 ## Acessar o projeto pelo navegador  
 ip_da_aplicacao:porta  
 Ex.:  **localhost:3001**  
-
+  
 ## Dependências utilizadas no projeto  
 npm install express  
 npm install -D nodemon 
@@ -22,7 +22,7 @@ npm install mongoose
 npm install require-dir  
 npm install mongoose-paginate
 npm install cors
-
+  
 ## nodemon  
 **npm install -D nodemon**  
 Dependência para ser utilizada apenas no ambiente de desenvolvimento.  
@@ -32,25 +32,25 @@ Utilização:
 2) Em scripts, cria uma nova propriedade: **"dev": "nodemon server.js"**  
 3) No terminal executa a aplicação usando o comando: **npm run dev**  
 Obs.: O npm run serve para executar os comandos que estão em script  
-4) Ao executar a aplicação pela primeira vez ela vai criar o banco de dados. 
-
+4) Ao executar a aplicação pela primeira vez ela vai criar o banco de dados.  
+  
 ## mogoose  
 **npm install mongoose**  
-O mongoose é um ORM (Object Relacional Mapping) de bancos não relacionais.
-O ORM vai emcapsular a lógica das operações do banco de dados através do código. Sendo assim não será utilizada a linguagem do banco de dados e utilizará o JavaScript para realizar operações no banco.
-
+O mongoose é um ORM (Object Relacional Mapping) de bancos não relacionais.  
+O ORM vai emcapsular a lógica das operações do banco de dados através do código. Sendo assim não será utilizada a linguagem do banco de dados e utilizará o JavaScript para realizar operações no banco.  
+  
 ## require-dir  
 **npm install require-dir**  
-Todos os models criados devem ser registrados na aplicação atravéz do require. Para evitar fazer um require em todos os models da aplicação o requide-dir faz o registro de todos os models existentes.
-
+Todos os models criados devem ser registrados na aplicação atravéz do require. Para evitar fazer um require em todos os models da aplicação o requide-dir faz o registro de todos os models existentes.  
+  
 ## mongoose-paginate  
 **npm install mongoose-paginate**  
 Dependência que permite usar paginação no mogoose.  
-
+  
 ## cors  
 **npm install cors**  
-Permite que outros endereços acessem nossa API. Isso serve pra quando nossa aplicação estão hostadada em algum servidor usando algum domínio. Basicamente ele previne o acesso de domínios que não sáo o mesmo domínio de outros softwares da nossa API.
-
+Permite que outros endereços acessem nossa API. Isso serve pra quando nossa aplicação estão hostadada em algum servidor usando algum domínio. Basicamente ele previne o acesso de domínios que não sáo o mesmo domínio de outros softwares da nossa API.  
+  
 ## baixando e criando a imagem do mongodb utilizando o Docker  
 1) Para instalação do docker: https://www.docker.com/  
 2) Verifica a versão do Docker instalado na máquina:  
