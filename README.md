@@ -83,7 +83,7 @@ Permite que outros endereços acessem nossa API. Isso serve pra quando nossa apl
 2) Depois de fazer o download acessa a pasta **/home/user/Downloads/robo3t-1.3.1-linux-x86_64-7419c406/bin**  
 3) Executa o **robo3t**  
 
-**Cadastrando um banco**  
+**Cadastrando um banco de dados**  
 1) Clica em MongoDB Connections, em seguida em Create  
     Em Type: Direct Connection  
     Em Name: O nome que você quizer (Coloquei MongoDB-Docker)  
