@@ -23,6 +23,10 @@ npm install require-dir
 npm install mongoose-paginate
 npm install cors
   
+## express
+**npm install express**
+O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel. É com o Express que criamos a API do projeto.  
+  
 ## nodemon  
 **npm install -D nodemon**  
 Dependência para ser utilizada apenas no ambiente de desenvolvimento.  
