@@ -49,7 +49,7 @@ Dependência que permite usar paginação no mogoose.
   
 ## cors  
 **npm install cors**  
-Permite que outros endereços acessem nossa API. Isso serve pra quando nossa aplicação estão hostadada em algum servidor usando algum domínio. Basicamente ele previne o acesso de domínios que não sáo o mesmo domínio de outros softwares da nossa API.  
+Permite que outros endereços acessem nossa API. Isso serve pra quando nossa aplicação estiver hostadada em algum servidor usando algum domínio. Basicamente ele previne o acesso de domínios que não sáo o mesmo domínio de outros softwares da nossa API.  
   
 ## baixando e criando a imagem do mongodb utilizando o Docker  
 1) Para instalação do docker: https://www.docker.com/  
